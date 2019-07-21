@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "el usuario realiza el proceso de compra por la tienda web",
+        "description": "",
+        "id": "prueba-inicio-compra;el-usuario-realiza-el-proceso-de-compra-por-la-tienda-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60764444128,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "el usuario procede ha acceder a la web de la tienda metro",
+            "match": {
+              "location": "metroCompraDefinitionSteps.elUsuarioProcedeHaAccederALaWebDeLaTiendaMetro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12810977801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "el usuario busque un producto en especifico",
+            "match": {
+              "location": "metroCompraDefinitionSteps.elUsuarioBusqueUnProductoEnEspecifico()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1470890692,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "seleccione un resultado de los encontrados y lo añade al carrito de compras",
+            "match": {
+              "location": "metroCompraDefinitionSteps.seleccioneUnResultadoDeLosEncontradosYLoAadeAlCarritoDeCompras()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138731346,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el usuario deberia validar que en el carrito de compras, aparezca el numero de producto seleccionado",
+            "match": {
+              "location": "metroCompraDefinitionSteps.elUsuarioDeberiaValidarQueEnElCarritoDeComprasAparezcaElNumeroDeProductoSeleccionado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@tag_1"
+          }
+        ]
+      }
+    ],
+    "name": "Prueba inicio compra",
+    "description": "yo como cliente de la tienda metro deseeo ingresar a la aplicacion web y añadir un producto\nmediante el mecanismo de carrito de compras.",
+    "id": "prueba-inicio-compra",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/carroDecompras.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      },
+      {
+        "name": "@sprint1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  }
+]
